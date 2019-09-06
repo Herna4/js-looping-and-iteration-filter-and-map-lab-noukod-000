@@ -19,6 +19,7 @@ function exactMatch(drivers, matcher) {
     for (const key in matcher) {
       revenue = driver[key] === matcher[key];
     }
+    return matcher;
   });
   
 }
